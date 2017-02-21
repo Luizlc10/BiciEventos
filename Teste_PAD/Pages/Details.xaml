@@ -32,7 +32,7 @@
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel Margin="48 0 0 0" Padding="10" Loaded="StackPanel_Loaded" Grid.Column="0">
-                    <Button x:Name="b_going" FontFamily="Segoe MDL2 Assets" Content="&#xE001;" Width="48" Height="48" Background="Gray" Click="b_going_Click" HorizontalAlignment="Right" Margin="0,0,3,0"/>
+                    <Button x:Name="b_going" FontFamily="Segoe MDL2 Assets" Content="&#xE001;" Width="48" Height="48" Background="GreenYellow" Click="b_going_Click" HorizontalAlignment="Right" Margin="0,0,3,0"/>
                     <TextBlock x:Name="tblock_Users_Participating"  Grid.Column ="1" HorizontalAlignment="Right" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
                     <Button x:Name="b_invite" FontFamily="Segoe MDL2 Assets" Content="&#xE8FA;" Width="48" Height="48" Background="Gray" Click="B_invite_OnClick"  HorizontalAlignment="Right" Margin="0,10,3,0" RenderTransformOrigin="3.267,0.667"/>
                     <TextBlock x:Name="tblock_Title" TextWrapping="Wrap" HorizontalAlignment="Left" Grid.Column="0" Margin="0,-100,88,0" />

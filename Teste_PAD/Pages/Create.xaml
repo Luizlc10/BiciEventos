@@ -34,7 +34,7 @@
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
-                <StackPanel Margin="48 0 0 0" Padding="10">
+                <StackPanel Margin="48 0 50 0" Padding="10">
                     <TextBlock x:Name="tblock_Title" TextWrapping="Wrap" Text="Event title" HorizontalAlignment="Stretch"/>
                     <TextBox x:Name="tb_Title" TextWrapping="Wrap" PlaceholderText="Event name" HorizontalAlignment="Stretch"/>
                     <CalendarDatePicker x:Name="cdp_StartDate" Header="Start Date" HorizontalAlignment="Stretch"/>

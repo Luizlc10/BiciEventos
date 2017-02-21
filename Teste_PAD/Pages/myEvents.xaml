@@ -12,20 +12,20 @@
             <SplitView.Pane>
                 <StackPanel Background="Gray">
                     <Button Name="b_Hamburger" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" Width="48" Height="48" Background="Transparent" Click="b_Hamburger_Click"/>
-                    <ListView>
-                        <ListViewItem Name="lvi_Main" Content="Main" Padding="50 0 0 0" Tapped="lvi_Main_Tapped"></ListViewItem>
-                        <ListViewItem Name="lvi_myEvents" Content="My Events" Padding="50 0 0 0"></ListViewItem>
-                        <ListViewItem Name="lvi_invites" Content="Invites" Padding="50 0 0 0" Tapped="lvi_invite_Tapped"></ListViewItem>
-                        <ListViewItem Name="lvi_Create" Content="Create Event" Padding="50 0 0 0" Tapped="lvi_Create_Tapped"></ListViewItem>
-                        <ListViewItem Name="lvi_Logout" Content="Logout" Padding="50 0 0 0" Tapped="lvi_Logout_Tapped"></ListViewItem>
+                    <ListView Margin="52 0 0 0">
+                        <ListViewItem Name="lvi_Main" Content="Main" Padding="20 0 0 0" Tapped="lvi_Main_Tapped" BorderThickness="0 1 0 0" BorderBrush="AliceBlue"></ListViewItem>
+                        <ListViewItem Name="lvi_myEvents" Content="My Events" Padding="20 0 0 0" BorderThickness="0 1 0 0" BorderBrush="AliceBlue" Background="Goldenrod"></ListViewItem>
+                        <ListViewItem Name="lvi_invites" Content="Invites" Padding="20 0 0 0" Tapped="lvi_invite_Tapped" BorderThickness="0 1 0 0" BorderBrush="AliceBlue"></ListViewItem>
+                        <ListViewItem Name="lvi_Create" Content="Create Event" Padding="20 0 0 0" Tapped="lvi_Create_Tapped" BorderThickness="0 1 0 0" BorderBrush="AliceBlue"></ListViewItem>
+                        <ListViewItem Name="lvi_Logout" Content="Logout" Padding="20 0 0 0" Tapped="lvi_Logout_Tapped" BorderThickness="0 1 0 1" BorderBrush="AliceBlue"></ListViewItem>
                     </ListView>
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
                 <StackPanel Loaded="StackPanel_Loaded">
                     <TextBlock Name="tblock_Title" HorizontalAlignment="Center" FontSize="30" Margin="0 30 0 0" Text="My Events"/>
-                    <TextBox x:Name="tb_Search" HorizontalAlignment="Stretch" TextWrapping="Wrap" PlaceholderText="Type here" Margin="0 10 0 0"/>
-                    <Button x:Name="b_Search" Content="Search"  HorizontalAlignment="Stretch" Click="b_Search_Click" Margin="0 50 0 0"/>
+                    <TextBox x:Name="tb_Search" HorizontalAlignment="Stretch" TextWrapping="Wrap" PlaceholderText="Type here" Margin="50 10 50 0"/>
+                    <Button x:Name="b_Search" Content="Search"  HorizontalAlignment="Stretch" Click="b_Search_Click" Margin="50 50 50 0" Background="DarkBlue"/>
                     <ScrollViewer VerticalScrollBarVisibility="Visible">
                         <ListBox x:Name="lb_Events" HorizontalAlignment="Stretch" Margin="0 50 0 0" SelectionChanged="lb_Events_SelectionChanged"/>
                     </ScrollViewer>

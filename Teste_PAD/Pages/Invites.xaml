@@ -25,7 +25,7 @@
                 <StackPanel Loaded="StackPanel_Loaded">
                     <TextBlock Name="tblock_Title" HorizontalAlignment="Center" FontSize="30" Margin="0 30 0 0" Text="Invites"/>
                     <TextBlock Name="tblock_EventId" Visibility="Collapsed"></TextBlock>
-                    <TextBox Name="tb_Search" HorizontalAlignment="Stretch" TextWrapping="Wrap" PlaceholderText="Type here" Margin="0 10 0 0"/>
+                    <TextBox Name="tb_Search" HorizontalAlignment="Stretch" TextWrapping="Wrap" PlaceholderText="Type here" Margin="50 10 50 0"/>
                     <ScrollViewer VerticalScrollBarVisibility="Visible">
                         <ListBox x:Name="lb_Events" HorizontalAlignment="Stretch" Margin="0 50 0 0" SelectionChanged="lb_Invites_SelectionChanged"/>
                     </ScrollViewer>
